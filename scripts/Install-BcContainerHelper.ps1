@@ -4,7 +4,7 @@
 )
 
 if ($bcContainerHelperVersion -eq "") { $bcContainerHelperVersion = "latest" }
-if ($bccontainerHelperVersion -eq "dev") { $bccontainerHelperVersion = "https://github.com/microsoft/navcontainerhelper/archive/dev.zip" }
+if ($bccontainerHelperVersion -eq "dev") { $bccontainerHelperVersion = "https://bccontainerhelper.blob.core.windows.net/public/preview.zip" }
 
 if ((Test-Path $bcContainerHelperVersion) -and (Test-Path (Join-Path $bcContainerHelperVersion "bcContainerHelper.ps1"))) {
     $path = $bcContainerHelperVersion
