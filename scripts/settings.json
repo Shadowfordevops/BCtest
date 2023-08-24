@@ -17,11 +17,11 @@
     "enableUICop":  true,
     "bcContainerHelperVersion":  "dev",
     "additionalCountries":  "",
-    "vaultNameForLocal":  "BuildTest3",
+    "vaultNameForLocal":  "BuildTest4",
     "versions":  [
                      {
                          "version":  "ci",
-                         "artifact":  "//18.0.23013.24016/us",
+                         "artifact":  "https://bcartifacts.azureedge.net/onprem/22.4.59114.59535/w1",
                          "cacheImage":  true,
                          "CreateRuntimePackages":  true
                      },
