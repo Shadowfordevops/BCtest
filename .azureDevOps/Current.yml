@@ -12,7 +12,7 @@ pool:
   vmImage: 'Windows-Latest'
 
 variables:
-- group: BuildVariables
+- group: BuildTest4
 
 jobs:
 - job: Build
