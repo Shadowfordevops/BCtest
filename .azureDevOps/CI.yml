@@ -2,7 +2,10 @@ trigger:
 - master
 
 pool:
-  name: bcyaml
+  name: test
+  demands:
+  - agent.name -equals bcyaml
+
 
 variables:
 - group: BuildTest4
