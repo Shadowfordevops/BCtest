@@ -2,7 +2,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'Windows-Latest'
+  vmImage: test
 
 variables:
 - group: BuildTest4
